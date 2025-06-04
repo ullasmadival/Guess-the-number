@@ -1,0 +1,32 @@
+.box{
+    
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 10px;
+    
+}
+
+.child{
+    margin: 10px;
+}
+
+*{
+    background-color: rgb(243, 170, 34);
+}
+
+button{
+    background-color: rgb(84, 84, 217);
+}
+
+
+
